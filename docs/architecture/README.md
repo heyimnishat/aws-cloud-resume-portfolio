@@ -1,4 +1,7 @@
 # AWS Visitor Counter Architecture
+## Architecture Diagram
+
+![AWS Visitor Counter](aws-visitor-counter.png)
 
 ## Objective
 Display a live visitor count on my Cloud Resume Portfolio using AWS serverless services.
