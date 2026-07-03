@@ -1,0 +1,208 @@
+/*----------------------------------------------------
+            Certifications Section
+----------------------------------------------------*/
+
+.certifications{
+    max-width:1300px;
+    margin:30px auto;
+    padding-top:3px;
+    padding-bottom:1px;
+}
+
+/*----------------------------------------------------
+            Section Header
+----------------------------------------------------*/
+
+.certifications-header{
+    text-align:center;
+    margin-bottom:20px;
+
+}
+
+.certifications-heading{
+    font-size:42px;
+    color:#ffffff;
+    margin-bottom:15px;
+}
+
+.certifications-subtitle{
+    max-width:700px;
+    margin:auto;
+    color:#94a3b8;
+    font-size:18px;
+    line-height:1.5;
+
+}
+
+.certificate-title{
+    font-size:32px;
+    color:#fff;
+    margin-bottom:10px;
+}
+
+
+/*----------------------------------------------------
+            Certifications Grid
+----------------------------------------------------*/
+
+.certifications-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+
+}
+
+
+/*----------------------------------------------------
+            Certification Card
+----------------------------------------------------*/
+
+.certification-card{
+    background:#24314f;
+    border:1px solid rgba(56,189,248,.15);
+    border-radius:18px;
+    padding:20px 24px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:300px;
+    transition:.3s;
+
+}
+
+.certification-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#38bdf8;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.30);
+
+}
+
+
+/*----------------------------------------------------
+            Card Title
+----------------------------------------------------*/
+
+.certification-title{
+
+    font-size:28px;
+
+    color:#ffffff;
+
+    margin-bottom:18px;
+
+}
+
+
+/*----------------------------------------------------
+            Description
+----------------------------------------------------*/
+
+.certificate-description{
+    color:#d5d9e4;
+    line-height:1.5;
+    margin-bottom:17px;
+    font-size:18px;
+}
+
+
+/*----------------------------------------------------
+            Button
+----------------------------------------------------*/
+
+.certification-button{
+    margin-top:auto;
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:14px 20px;
+    border-radius:12px;
+    background:#38bdf8;
+    color:#000;
+    font-weight:700;
+    text-decoration:none;
+}
+
+.certification-button:hover{
+
+    background:#67d0ff;
+
+    transform:translateY(-3px);
+
+}
+
+
+/*----------------------------------------------------
+            Responsive
+----------------------------------------------------*/
+
+@media(max-width:1100px){
+
+.certifications-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+}
+
+}
+
+@media(max-width:700px){
+
+.certifications-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+/*==============================================
+            Certificate Logo Box
+==============================================*/
+
+.certificate-logo-box{
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    margin-bottom:25px;
+    padding:30px;
+}
+
+/*==============================================
+            Common Logo
+==============================================*/
+
+.certificate-logo{
+    display:block;
+    height:auto;
+}
+
+/*==============================================
+            Individual Logo Sizes
+==============================================*/
+
+.solarwinds-logo{
+    width:180px;
+}
+
+.aws-logo{
+    width:140px;
+}
+
+.rhcsa-logo{
+    width:110px;
+}
+
+.webex-logo{
+    width:170px;
+}
+
+.sipsense-logo{
+    width:150px;
+}
+
+.thwack-logo{
+    width:180px;
+}

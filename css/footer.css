@@ -1,0 +1,206 @@
+/*====================================================
+                    FOOTER
+====================================================*/
+
+
+/*----------------------------------------------------
+                Footer Section
+----------------------------------------------------*/
+
+.footer{
+    scroll-margin-top:110px;
+    margin-top:120px;
+    background:#101827;
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+
+/*----------------------------------------------------
+                Footer Container
+----------------------------------------------------*/
+
+.footer-container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    padding:70px 20px 50px;
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr;
+
+    gap:70px;
+
+}
+
+
+/*----------------------------------------------------
+                About Section
+----------------------------------------------------*/
+
+.footer-name{
+
+    font-size:34px;
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+}
+
+.footer-title{
+
+    font-size:20px;
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+}
+
+.footer-description{
+
+    max-width:450px;
+
+    color:#94a3b8;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+
+/*----------------------------------------------------
+                Footer Headings
+----------------------------------------------------*/
+
+.footer-heading{
+
+    font-size:22px;
+
+    color:#ffffff;
+
+    margin-bottom:25px;
+
+}
+
+
+/*----------------------------------------------------
+                Footer Links
+----------------------------------------------------*/
+
+.footer-links,
+
+.footer-connect{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+}
+
+.footer-links a,
+
+.footer-connect a{
+
+    color:#cbd5e1;
+
+    text-decoration:none;
+
+    transition:.30s;
+
+}
+
+.footer-links a:hover,
+
+.footer-connect a:hover{
+
+    color:#38bdf8;
+
+    padding-left:8px;
+
+}
+
+
+/*----------------------------------------------------
+                Bottom Footer
+----------------------------------------------------*/
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding:22px;
+
+    text-align:center;
+
+}
+
+.footer-bottom p{
+
+    color:#94a3b8;
+
+    font-size:15px;
+
+    letter-spacing:.3px;
+
+}
+
+
+/*----------------------------------------------------
+                Responsive
+----------------------------------------------------*/
+
+@media(max-width:992px){
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+    gap:45px;
+
+    text-align:center;
+
+}
+
+.footer-description{
+
+    margin:auto;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.footer{
+
+    margin-top:80px;
+
+}
+
+.footer-container{
+
+    padding:60px 20px 40px;
+
+}
+
+.footer-name{
+
+    font-size:30px;
+
+}
+
+.footer-title{
+
+    font-size:18px;
+
+}
+
+}

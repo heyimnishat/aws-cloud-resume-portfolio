@@ -1,0 +1,408 @@
+/*====================================================
+                    HERO SECTION
+====================================================*/
+
+
+/*----------------------------------------------------
+                    Hero Layout
+----------------------------------------------------*/
+
+.hero{
+
+    max-width:1200px;
+    margin:30px auto 0;
+    padding:0 20px;
+    scroll-margin-top:110px;
+    padding-top:10px;
+    padding-bottom:60px;
+    scroll-margin-top:110px;
+
+}
+
+.hero-container{
+
+    display:grid;
+
+    grid-template-columns:1.15fr 0.60fr;
+
+    align-items:center;
+
+    gap:40px;
+
+}
+
+
+/*----------------------------------------------------
+                    Hero Details
+----------------------------------------------------*/
+
+.hero-details{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+
+/*----------------------------------------------------
+                    Hero Profile
+----------------------------------------------------*/
+
+.hero-profile{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+}
+
+.hero-profile-image{
+
+    width:110%;
+
+    max-width:390px;
+
+    height:auto;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 30px rgba(0,0,0,.35);
+
+}
+
+
+/*----------------------------------------------------
+                    Hero Intro
+----------------------------------------------------*/
+
+.hero-intro{
+
+    font-size:17px;
+
+    color:#d1d5db;
+
+    margin-bottom:20px;
+
+}
+
+
+/*----------------------------------------------------
+                    Hero Name
+----------------------------------------------------*/
+
+.hero-name{
+
+    font-size:64px;
+
+    line-height:1.05;
+
+    color:#38bdf8;
+
+    margin-bottom:10px;
+
+}
+
+
+/*----------------------------------------------------
+                    Hero Title
+----------------------------------------------------*/
+
+.hero-title{
+
+    font-size:30px;
+
+    line-height:1.1;
+
+    color:#ffffff;
+
+    margin-bottom:10px;
+
+}
+
+
+/*----------------------------------------------------
+                Hero Description
+----------------------------------------------------*/
+
+.hero-description{
+
+    max-width:600px;
+
+    font-size:19px;
+
+    line-height:1.5;
+
+    color:#cbd5e1;
+
+    margin-bottom:15px;
+
+}
+
+/*----------------------------------------------------
+                Hero Technology Tags
+----------------------------------------------------*/
+
+.hero-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-tags span{
+
+    padding:7px 15px;
+
+    border-radius:30px;
+
+    background:#1e293b;
+
+    border:1px solid rgba(56,189,248,.25);
+
+    color:#38bdf8;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+
+/*----------------------------------------------------
+                    Hero Summary
+----------------------------------------------------*/
+
+.hero-summary{
+
+    display:flex;
+
+    gap:50px;
+
+    margin-bottom:30px;
+
+    flex-wrap:wrap;
+
+}
+
+
+/*----------------------------------------------------
+                Hero Summary Card
+----------------------------------------------------*/
+
+.hero-summary-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.hero-summary-card strong{
+
+    font-size:28px;
+
+    color:#38bdf8;
+
+    font-weight:600;
+
+    line-height:1;
+
+    margin-bottom:6px;
+
+}
+
+.hero-summary-card span{
+
+    font-size:15px;
+
+    color:#d1d5db;
+
+    font-weight:500;
+
+}
+
+/*----------------------------------------------------
+                    Hero Buttons
+----------------------------------------------------*/
+
+.hero-buttons{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+}
+
+.hero-buttons a{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-width:180px;
+
+    height:56px;
+
+    padding:0 30px;
+
+    border-radius:14px;
+
+    background:#38bdf8;
+
+    color:#08111f;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    font-weight:700;
+
+    transition:.30s;
+
+    box-shadow:0 10px 25px rgba(56,189,248,.28);
+
+}
+
+
+/*----------------------------------------------------
+                Hero Button Hover
+----------------------------------------------------*/
+
+.hero-buttons a:hover{
+
+    transform:translateY(-4px);
+
+    background:#63d3ff;
+
+    box-shadow:0 18px 35px rgba(56,189,248,.35);
+
+}
+
+
+/*----------------------------------------------------
+                Hero Button Active
+----------------------------------------------------*/
+
+.hero-buttons a:active{
+
+    transform:translateY(-1px);
+
+}
+
+
+/*----------------------------------------------------
+                Hero Responsive
+----------------------------------------------------*/
+
+@media(max-width:992px){
+
+.hero-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+    gap:40px;
+
+}
+
+.hero-details{
+
+    align-items:center;
+
+}
+
+.hero-profile{
+
+    justify-content:center;
+
+}
+
+.hero-tags{
+
+    justify-content:center;
+
+}
+
+.hero-summary{
+
+    justify-content:center;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-name{
+
+    font-size:52px;
+
+}
+
+.hero-title{
+
+    font-size:28px;
+
+}
+
+}
+
+
+@media(max-width:576px){
+
+.hero{
+
+    padding:0 20px;
+
+}
+
+.hero-name{
+
+    font-size:42px;
+
+}
+
+.hero-title{
+
+    font-size:24px;
+
+}
+
+.hero-description{
+
+    font-size:17px;
+
+}
+
+.hero-buttons a{
+
+    width:100%;
+
+}
+
+.hero-profile-image{
+
+    max-width:300px;
+
+}
+
+}
